@@ -1,13 +1,13 @@
 # Sippet - A Twitter Clone
 
-Sippet is a feature-rich Twitter clone built with Flutter and Firebase, offering a seamless social media experience with modern features and real-time interaction capabilities.
+Sippet is a feature-rich Twitter clone built with Flutter and Appwrite, offering a seamless social media experience with modern features and real-time interaction capabilities.
 
 ## Features Overview
 
 - **Tweet Functionality**: Post, retweet, quote tweet, and reply to tweets
 - **Rich Media Support**: Share images, GIFs, and videos in tweets
 - **Audio Rooms**: Host and join live audio conversations
-- **Real-time Notifications**: Stay updated with push notifications
+- **Real-time Notifications**: Stay updated with push notifications implemented using Signal
 - **User Management**: Comprehensive profile management and verification
 - **Search Capabilities**: Find users and tweets with advanced search
 - **Local Algorithm**: Personalized content recommendations
@@ -58,10 +58,10 @@ Here's a glimpse of Sippet in action:
 ## Technology Stack
 
 - **Frontend**: Flutter for cross-platform mobile application
-- **Backend**: Firebase for authentication, database, and storage
+- **Backend**: Appwrite for authentication, database, and storage
 - **Real-time Communication**: Stream API for audio rooms and real-time features
-- **Push Notifications**: Firebase Cloud Messaging
-- **Analytics**: Firebase Analytics for usage statistics
+- **Push Notifications**: Signal
+- **Analytics**: Appwrite Analytics for usage statistics
 
 ## Getting Started
 
@@ -69,7 +69,7 @@ Here's a glimpse of Sippet in action:
 - Flutter SDK (2.10.0 or higher)
 - Dart SDK (2.16.0 or higher)
 - Android Studio or Visual Studio Code
-- Firebase project setup
+- Appwrite server setup
 
 ### Installation
 
@@ -84,11 +84,12 @@ cd Sippet
 flutter pub get
 ```
 
-3. Configure Firebase:
-   - Create a new Firebase project at [Firebase Console](https://console.firebase.google.com/)
-   - Add Android and iOS apps to your Firebase project
-   - Download and add the configuration files to your project
-   - Enable Authentication, Firestore, Storage, and Cloud Messaging
+3. Configure Appwrite:
+   - Set up an Appwrite server or create an account on Appwrite Cloud
+   - Create a new project in the Appwrite console
+   - Set up database collections and storage buckets for the app
+   - Configure authentication providers as needed
+   - Add your Appwrite endpoint and project ID to the app configuration
 
 4. Run the app:
 ```bash
@@ -121,6 +122,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Acknowledgements
 
 - [Flutter](https://flutter.dev/)
-- [Firebase](https://firebase.google.com/)
+- [Appwrite](https://appwrite.io/)
 - [Stream](https://getstream.io/)
 - All contributors who have helped shape this project
