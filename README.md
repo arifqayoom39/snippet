@@ -75,8 +75,8 @@ Here's a glimpse of Sippet in action:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/Sippet.git
-cd Sippet
+git clone https://github.com/arifqayoom39/snippet.git
+
 ```
 
 2. Install dependencies:
